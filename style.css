@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap')
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 10px;
+	  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+header{
+	width: 100%;
+	height: 69px;s
+	padding:20px 10px 0 0;
+	display: flex;
+	align-items: center;
+
+}
+
+
+.menu{
+	width: 10%;
+	font-weight: 900;
+	font-size: 4em;
+	display: flex;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu a{
+	color: black;
+	cursor: pointer;
+	width: 30px;
+	height: 50px;
+
+
+}
+.links{
+	 padding:0px 0 0 0;
+	 display: flex;
+	 align-items: center;
+	 width: 55%;
+
+}
+.links a{
+	text-decoration: none;
+	padding:  0 10px;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: black;
+}
+ .links .more{
+	padding-right: 0;
+}
+.plus{
+	font-size: 2em;
+}
+.right{
+	margin-left: 200px;
+	width: 30%;
+}
+.right a{
+	text-decoration: none;
+	margin-left: 10px;
+	font-size: 1.4em;
+	font-weight: 600;
+
+}
+ .log{
+	color: black;
+}
+.image{
+	width: 100%;
+	height: 626px;
+}
+.main-picture{
+	background: url(images/swith.jpg) no-repeat;
+		background-size: cover;
+	/*background-position: center;*/
+	background-attachment: fixed;
+	height: 626px;
+	width:100%;
+	padding: 85px;
+
+}
+
+.main-picture a {
+ text-decoration: none;
+ color: #ffff;
+ display: flex;
+ flex-direction: column;
+ padding-left: 50px;
+
+}
+.main-picture a h1{
+ font-size: 5em;
+}
+.main-picture a span{
+ text-decoration:underline;
+ font-size: 2em;
+}
+.main-content{
+	
+	margin-left: 70px;
+
+
+}
+.main-rest{
+	display: flex;
+	flex-direction: row;
+/*flex-wrap: wrap;*/
+		padding-bottom: 10px;
+
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+}
+.element{
+	display: flex;
+	flex-direction: column;
+	width: 43%;
+	height: 250px;
+	margin: 20px;
+
+}
+.element img{
+	width: 260px;
+	height: 146px;
+}
+.element a{
+	text-decoration: none;
+	color: black;
+
+}
+.main-content h2{
+	margin-left: 20px;
+	font-size: 2.5em;
+}
+
+.element a h2 {
+	margin: 12px 0 30px 0;
+	/*line-height: 2.2em;
+	overflow: hidden;
+	line-clamp:2;*/
+	width: 260px;
+}
+ .element .font{
+	font-size: 1.6em;
+	font-weight: 600;
+
+
+	
+}
+.element span{
+	display: block;
+
+}
+.mid-section{
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	padding: 20px;
+	margin: 15px 0 0 0;
+
+}
+.mid-section a{
+	text-decoration: none;
+	padding:10px 15px;
+	font-size: 1.7em;
+	color: #0000ff;
+	font-weight: 600;
+}
+.mid-section strong{
+	font-size: 1.5em;
+}
+.last-header h1{
+	font-size: 4.4em;
+	
+	margin-bottom: 40px;
+}
+
+.footer{
+	width: 80%;
+	display: flex;
+
+
+}
+.last-section{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 90%;
+
+}
+.foo .links-footer{
+	width: 100%;
+}
+.left-footer{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	margin:0 30px 0 0;
+}
+
+.links-footer{
+	display: flex;
+	flex-direction: column;
+
+}
+.links-footer a{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: black;
+	font-weight: 400;
+	width: 100%;
+}
+.mid-footer h3{
+ padding:0;
+ margin:0;
+ font-size: 1.5em;
+ font-weight: 600;
+ margin-bottom: 5px;
+}
+.mid-footer{
+	width: 600px;
+	margin:0 30px;
+}
+.right-footer{
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	margin:0 30px;
+}
+.right-footer span{
+		font-size: 1.5em;
+	color: black;
+	font-weight: 400;
+}
+ .right-footer .little-span{
+	 font-size: 1.5em;
+ font-weight: 600;
+ margin-bottom: 5px;
+
+}
+.input{
+	height: 30px;
+	margin-top: 10px;
+	width: 100%;
+}
+.input button{
+	background-color: blue;
+	color: white;
+	border:none;
+	height: 36px;
+	
+}
+.input input{
+	height: 100%;
+	width: 70%;
+	background-color: #eeeeee;
+	padding:1px  2px;
+}
+.container{
+	width: 90%;
+	margin-left: 10%;
+}
+.logo-footer img{
+	width:32px;
+	height: 32px;
+
+}
+.foo{
+	margin-left: 100px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	height: 130px;
+}
+.foo .mid-footer {
+	margin-left: 0;
+}
+.mid{
+	width: 24%;
+}
+.select{
+	margin-left: 12px;
+}
+.select h3{
+	 font-size: 1.5em;
+ font-weight: 600;
+margin:0;
+}
+.form{
+	display: flex;
+	margin-top: 10px;
+}
+
+  .form .menu1{
+
+	padding:6px 12px;
+	width: 120px;
+	height: 30px;
+	background-color: #eeeeee;
+	border:none;
+	font-weight: 500;
+ 	}
+
+.form .menu2{
+	padding:6px 12px;
+	width: 200px;
+	height: 30px;
+	background-color: #eeeeee;
+	border:none;
+	font-weight: 500;
+}
+
+footer{
+	margin-left: 100px;
+	display: flex;
+	justify-content: space-between;
+	height: 10%;
+
+}
+
+footer .left-end a{
+	text-decoration: none;
+	font-size: 1.4em;
+	font-weight: 500;
+	color: black;
+	margin-right: 14px;
+}
+.left-end{
+	display: flex;
+	align-items: center;
+}
+.right-end{
+	display: flex;
+	align-items: center;
+}
+.right-end img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.right-end span{
+	font-size: 1.4em;
+	font-weight: 500;
+	margin-right: 10px;
+}
+@media(max-width: 1083px){
+	body{
+		font-size: 9px;
+	}
+	 .right{
+		margin-left: 100px;
+	}
+}
+.lara{
+	display: none;
+
+
+}
+.lara button{
+	border: none;
+	font-weight: 500;
+	font-size: 1.8em;
+
+}
+.lara button i{
+	font-size: 0.6em;
+}
+
+
+@media(max-width: 1013px){
+	.mid{
+		width: 100%;
+	}
+	.select{
+		margin-left: 0;
+	}
+	footer{
+		margin-left: 80px;
+	}
+	footer .left-end {
+		display: none;
+	}
+	.links{
+		display: none;
+	}
+	.main-rest{
+
+		flex-wrap: wrap;
+	}
+	.lara{
+		display: flex;
+			padding-left:50px;
+	}
+	.right{
+		display: none;
+
+	}
+	.footer{
+		flex-direction: column;
+
+	}
+	.footer .left-footer,.footer .mid-footer,.footer .right-footer{
+		padding-bottom: 15%;
+	}
+	.footer .mid-footer,.footer .right-footer{
+	
+		margin: 0;
+	}
+	.foo {
+		margin-left: 10%;
+		height: 300px;
+	}
+}
+@media(max-width: 720px){
+	.right-footer{
+		width: 100%;
+	}
+}
+@media(max-width: 552px){
+
+	.right-footer{
+		width:80%;
+	}
+	.main-picture{
+		padding-left: 20px;
+	}
+	.main-picture h1{
+		font-size: 1em;
+
+	} 
+	.main-picture a{
+		padding-left: 10px;
+	}
+	.right-footer{
+		width: 300px;
+	}
+}
+@media(max-width: 350px){
+	.right-footer{
+		width:250px;
+	}
+	footer{
+		margin-top: 40px;
+	}
+	.main-content{
+		margin-left: 0;
+	}
+	.form{
+		flex-direction: column;
+	}
+}
